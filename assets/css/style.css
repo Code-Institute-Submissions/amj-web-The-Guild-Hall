@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Lora&family=Love+Ya+Like+A+Sister&display=swap');
 
 * {
     margin: 0;
@@ -14,12 +14,39 @@ body {
 
 h1, h2 {
     font-family: 'Love Ya Like A Sister', sans-serif;
-    color: red;
+    color: black;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 #logo {
     float: left;
-    font-size: 350%;
+    font-size: 450%;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+    font-family: 'Love Ya Like A Sister', sans-serif;
+}
+
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#menu a {
+    text-decoration:none;
+    color: inherit;
+}
+
+#menu a:hover {
+    font-family: 'Eater', sans-serif;
 }
