@@ -140,24 +140,84 @@ p {
 #left-about-one h3 {
     padding-bottom: 10px;
 }
-
-#nice-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-width: 1px;
-    float: right;
-    margin-right: 250px;
-}
-
 /* game times */
 
 #times {
+    margin-right: 30px;
+    width: 33%;
+    padding-left: 100px;
     float: right;
-    width: 220px;
-    margin-left: 30px
- }
+    columns: 2;
+    column-width: auto;
+}
+   #times div h2 {
+        color: white;
+        text-align: left;
+        
+    }
 
+    #times div {
+        color: white;
+        background-color: rgba(0, 0, 0, .6);
+        width: 300px;
+        height: 50px;
+        padding: 30px 0 0 10px;
+        text-align: left;
+        border: 2px solid white;
+        overflow: hidden;
+        float: right;
+        display: table-column-group;
+    }
+
+    #mon {
+        background-image: url(../images/mon.gif);
+    }
+    
+    #tues {
+        background-image: url(../images/tues.gif);
+    }
+
+    #wed {
+        background-image: url(../images/wed.gif);
+    }
+
+    #thur {
+        background-image: url(../images/thurs.gif);
+    }
+
+    #fri {
+        background-image: url(../images/fri.gif);
+    }
+
+    #sat {
+        background-image: url(../images/sat.gif);
+    }
+
+    #sun {
+        background-image: url(../images/sun.gif);
+    }
 
 /* footer */
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 25%;
+    height: 30px;
+  }
+
+
+.social-networks {
+    text-align: left;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: black
+}
+
+.social-networks li {
+    display: inline;
+}
