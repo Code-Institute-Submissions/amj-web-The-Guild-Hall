@@ -56,7 +56,7 @@ h1, h2 {
     color: black;
 }
 
-/* Hero Image */
+/* Hero Image -- Using Love Running as guide and template*/
 
 #hero-outer {
     height: 600px;
@@ -72,6 +72,7 @@ h1, h2 {
     background: url(../images/hero-image.jpg) no-repeat center center;
 }
 
+/* Cover Text -- Using Love Running as guide and template*/
 
 #cover-text {
     font-size: 130%;
@@ -96,7 +97,7 @@ h1, h2 {
 
 }
 
-/* creates the level of zoom for cover text */
+/* Creates the level of zoom for Cover Text -- Using Love Running Her Image animation as guide and template */
 
 @keyframes cover-zoom {
     from{
@@ -107,7 +108,7 @@ transform: scale(1)
     }
 }
 
-/* club ethos */
+/* Club Ethos -- Using Love Running as guide and template*/
 
 #club-ethos h2 {
     margin-left: 250px;
@@ -115,7 +116,7 @@ transform: scale(1)
     margin-bottom: 50px;
 }
 
-#left-about-one {
+#left-about {
     float: left;
     max-width: 25%;
     max-height: 300px;
@@ -126,21 +127,21 @@ p {
     padding-bottom: 30px;
 }
 
-#about-center-one {
+#center-about {
     float: left;
     max-width: 25%;
     max-height: 300px;
     margin-left: 75px;
 } 
 
-#about-center-one h3 {
+#center-about h3 {
     padding-bottom: 10px;
 }
 
-#left-about-one h3 {
+#left-about h3 {
     padding-bottom: 10px;
 }
-/* game times */
+/* Game Times -- Using Love Running as guide and template -- Not floating right properly */
 
 #times {
     margin-right: 30px;
@@ -197,7 +198,7 @@ p {
         background-image: url(../images/sun.gif);
     }
 
-/* footer */
+/* footer -- not displaying in correct place */
 
 footer {
     position: absolute;
@@ -220,4 +221,79 @@ footer {
 
 .social-networks li {
     display: inline;
+}
+
+/* Media queries -- Using Love running as guide and template*/
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #club-ethos h2 {
+        padding: 30px 0;
+        margin: 0%;
+    }
+
+    p {
+        width: 65%;
+        max-height: 10%;
+        margin: 0 auto;
+    }
+
+    #left-about, #center-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+        max-height: 150px;
+    }
+
+
+    #times {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
+
+/* For medium screen sizes for, 950px wide and down -- Love Runniong Guide and Template */
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    .left-about h3, .center-about h3 {
+        width: inherit;
+        text-align: center;
+    }
+
+    .p {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+    
 }
