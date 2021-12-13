@@ -141,15 +141,32 @@ p {
 #left-about h3 {
     padding-bottom: 10px;
 }
+
+/* Youtube video */
+#youtube {
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    bottom: 0;
+    clear: both;
+    padding: 75px;
+}
+
+#youtube h2 {
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    bottom: 0;
+    clear: both;
+}
+
+
+
 /* Game Times -- Using Love Running as guide and template -- Not floating right properly */
 
 #times {
-    margin-right: 30px;
-    width: 33%;
-    padding-left: 100px;
     float: right;
-    columns: 2;
-    column-width: auto;
+    margin: 0 auto;
 }
    #times div h2 {
         color: white;
@@ -201,12 +218,10 @@ p {
 /* footer -- not displaying in correct place */
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 25%;
-    height: 30px;
-  }
-
+    margin: 0 auto;
+    text-align: center;
+    width: 33%;
+  } 
 
 .social-networks {
     text-align: left;
@@ -263,7 +278,7 @@ footer {
 
 }
 
-/* For medium screen sizes for, 950px wide and down -- Love Runniong Guide and Template */
+/* For medium screen sizes for, 950px wide and down -- Love Running Guide and Template */
 
 @media screen and (max-width: 950px) {
 
@@ -290,6 +305,7 @@ footer {
         text-align: center;
     }
 
+    /* Text too long in responsive mode - Need help */
     .p {
         width: 100%;
         text-align: center;
