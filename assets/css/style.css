@@ -112,15 +112,20 @@ transform: scale(1)
 
 /* Club Ethos -- Using Love Running as guide and template*/
 
+#club-ethos {
+    float: left;
+    max-width: 66%;
+}
+
 #club-ethos h2 {
-    margin-left: 250px;
+    margin-left: 30%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 #left-about {
     float: left;
-    max-width: 25%;
+    width: 40%;
     max-height: 300px;
     margin-left: 30px;
 }
@@ -130,8 +135,8 @@ p {
 }
 
 #center-about {
-    float: left;
-    max-width: 25%;
+    float: right;
+    width: 40%;
     max-height: 300px;
     margin-left: 75px;
 } 
@@ -145,22 +150,25 @@ p {
 }
 
 /* Youtube video */
+
 #youtube {
-    margin-left: 75px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    bottom: 0;
-    clear: both;
-    padding: 75px;
+    width: 66%;
+    float: left;
+    text-align: center;
 }
 
 #youtube h2 {
-    margin-left: 75px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
     bottom: 0;
     clear: both;
     padding: 30px;
+}
+
+iframe {
+    width: 50%;
+    margin: 0 auto;
 }
 
 
@@ -168,12 +176,16 @@ p {
 /* Game Times -- Using Love Running as guide and template -- Not floating right properly */
 
 #times {
-    margin: 0 auto;
-    clear: both;
     float: right;
-    padding: 30px;
-    margin-right: 150px;
-    display: inline-grid 
+    max-width: 33%;
+    display: inline-grid;
+    margin-right: 50px;
+}
+
+   #games-head {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
 }
 
    #times h2 {
@@ -190,7 +202,7 @@ p {
         background-color: rgba(0, 0, 0, .6);
         width: 375px;
         height: 100px;
-        padding: 30px 0 0 10px;
+        padding: 10px;
         text-align: left;
         border: 2px solid white;
         overflow: hidden;
@@ -233,6 +245,7 @@ footer {
     text-align: center;
     width: 33%;
     padding: 20px;
+    clear: both;
   } 
 
 .social-networks {
