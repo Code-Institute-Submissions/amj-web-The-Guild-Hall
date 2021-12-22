@@ -237,7 +237,7 @@ iframe {
         background-image: url(../images/sun.gif);
     }
 
-/* footer -- not displaying in correct place */
+/* footer */
 
 footer {
     margin: 0 auto;
@@ -384,63 +384,113 @@ footer {
     font-weight: 600;
   }
 
-/* Media queries -- Using Love running as guide and template*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-@media screen and (max-width: 1200px) {
-   #club-ethos {
-       width: 65%;
-       height: 100%;
-       padding: 10%;
-       margin-bottom: 10%;
-   }
-
-   #times, #youtube {
-        width: 65%;
-        float: left;
-        padding: 10%;
-        clear: both;
-        margin-left: 15%;
-        margin-right: 30%;
-        margin-top: 10%;
-   }
+@media (min-width: 1281px) {
+  
 }
 
-/* For medium screen sizes for, 950px wide and down -- Love Running Guide and Template */
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
-@media screen and (max-width: 950px) {
+@media (min-width: 1026px) and (max-width: 1280px) {
+  
+  
+}
 
-    #logo {
-        margin-left: 10%;
 
-    }
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
 
-    #menu {
-        float: left;
-        padding: 10%;
-        margin-left: 10%;
-    }
-
-    #hero-image {
-        width: 100%;
-    }
+@media (min-width: 768px) and (max-width: 1023px) {
+  
     
-    #club-ethos {
-        width: 100%;
-        float: left;
-        margin-bottom: 10%;
-    }
- 
-    #times {
-         width: 100%;
-         margin-top: 10%;
-         float: left;
-         padding: 0;
-    }     
-
-    #youtube {
-         width: 100%;
-         margin: 0 auto;
-    }
 }
 
 
+/* 
+  ##Device = galaxay fold landscape
+  ##Screen = B/w 653
+*/
+
+@media (min-width: 652px) and (max-width: 655px) {
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+}
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 360px to 479px
+*/
+
+@media (min-width: 411px) and (max-width: 480px) {
+  
+}
+  /* 
+  ##Device = iphone x
+  ##Screen = B/w 360px to 479px
+*/
+
+@media (min-width: 375px) and (max-width: 410px) {
+  
+  
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 360px to 479px
+*/
+
+@media (min-width: 360px) and (max-width: 374px) {
+  
+}
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 360px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 359px) {  
+  
+}
+
+    /* 
+  ##Device = very small screens
+  ##Screen = B/w 240px to 319px
+*/
+
+@media (min-width: 240px) and (max-width: 319px) {
+    
+    #left-about {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #center-about {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
