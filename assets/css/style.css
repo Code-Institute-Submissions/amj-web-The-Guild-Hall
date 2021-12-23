@@ -482,15 +482,34 @@ footer {
     #left-about {
         display: flex;
         flex-direction: row;
-        font-size: 30px;
+        font-size: 1rem;
         text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-height: 25%;
     }
 
     #center-about {
         display: flex;
         flex-direction: row;
-        font-size: 30px;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: row;
         text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-height: 25%;
+    }
+
+    #youtube {
+        max-height: 20%;
+        max-width: 100%;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
 }
