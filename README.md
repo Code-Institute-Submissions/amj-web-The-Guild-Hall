@@ -3,6 +3,7 @@
 The Guild Hall is a site that helps players, both new and old to find Dungeons and Dragons games running in a fictitious tavern called "The Prancing Pony". 
 
 It aims to entice new players into trying the game for the first time by giving them a number of reasons as to why they should take up the hobby and how the perception of the game and those who play it has changed in recent years. 
+
  
 ## Features
 
@@ -26,6 +27,7 @@ The gallery provides the user with pictures for them to have an idea of what a g
 This page allows the user to sign up for any current games. The user is asked to submit their name, email address, and current level of experience.
 - Features left to implement
 In the future, I would like to add links to "let's play" videos so the user can watch games being played. 
+
 ## Running Tests
 
 To run tests, run the following command
@@ -33,6 +35,22 @@ To run tests, run the following command
 ```bash
   npm run test
 ```
+W3C CSS Validator results
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+W3C HTML Validator results
+
+https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-moccasin-gayal-a7ncl3cq.ws-eu25.gitpod.io%2Findex.html
+
+Responsive Design
+
+http://www.responsinator.com/?url=https%3A%2F%2F8000-moccasin-gayal-a7ncl3cq.ws-eu25.gitpod.io%2Findex.html
 
 
 ## Deployment
@@ -48,10 +66,12 @@ The live link can be found here - https://8000-moccasin-gayal-a7ncl3cq.ws-eu25.g
 
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- -  [Reasons to play credit to level1geek](https://www.level1geek.com/benefits-of-dungeons-and-dragons/)
- -  [Font Awesome Footer Icons](https://fontawesome.com/)
-  - [Gallery Pictures from Google images](https://www.google.com/search?q=people+playing+dnd&sxsrf=AOaemvJh3L35XwQ7y3MYChSdEXlUxk2yvg:1640694258239&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjTzMmzvob1AhVCZMAKHXBxCL0Q_AUoAXoECAEQAw&biw=1920&bih=929&dpr=1)
- - [Eurogamer YouTube video](https://www.youtube.com/watch?v=ypQ3kwYTDFI)
+- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [Awesome README](https://github.com/matiassingers/awesome-readme)
+- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [Reasons to play credit to level1geek](https://www.level1geek.com/benefits-of-dungeons-and-dragons/)
+- [Font Awesome Footer Icons](https://fontawesome.com/)
+- [Gallery Pictures from Google images](https://www.google.com/search?q=people+playing+dnd&sxsrf=AOaemvJh3L35XwQ7y3MYChSdEXlUxk2yvg:1640694258239&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjTzMmzvob1AhVCZMAKHXBxCL0Q_AUoAXoECAEQAw&biw=1920&bih=929&dpr=1)
+- [Eurogamer YouTube video](https://www.youtube.com/watch?v=ypQ3kwYTDFI)
+- [Hero Image](https://dnd.wizards.com/articles/media-resources/wallpapers)
+- [Sign Up form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/)

@@ -283,7 +283,7 @@ footer {
 
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url(../images/signup-bg.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -315,7 +315,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: rgb(155, 27, 27);
 }
 
 .join-button {
@@ -324,22 +324,103 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: rgb(155, 27, 27);
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: rgb(155, 27, 27);
 }
-/* Sign Up Form -- https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css// */
-
-
-
 
 
 /* Media Quries */ 
+
+@media (width: 1024px) {
+    #header {
+        max-height: 10%;
+        display: flex;
+    }
+
+    #logo {
+        float: left;
+        font-size: 150%;
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    #hero-outer {
+        max-height: 10%;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+    #menu {
+        text-align: center;
+        font-size: 100%;
+        line-height: 2;
+        font-size: 75%;
+        line-height: 2;
+        padding: 10px;
+        display: inline-block;
+        display: inline;
+    }
+
+    #club-ethos {
+        float: left;
+        max-width: 90vw;
+    }
+
+    #club-ethos h2 {
+        padding: 5vw;
+        text-align: center;
+    }
+    
+    #left-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+    }
+
+    #center-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #youtube {
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #times {
+        float: left;
+    }
+
+    #imgtoobig {
+        height: 5%;
+    }
+
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
     #header {
