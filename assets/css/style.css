@@ -276,298 +276,70 @@ footer {
 }
 
 #imgtoobig {
-    height: 422px;
+    height: 5%;
 }
 
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
 /* Sign Up Form -- https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css// */
 
-.signupFrm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  .form {
-    background-color: white;
-    width: 400px;
-    border-radius: 8px;
-    padding: 20px 40px;
-    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
-  }
-  
-  .title {
-    font-size: 50px;
-    margin-bottom: 50px;
-  }
-
-  .inputContainer {
-    position: relative;
-    height: 45px;
-    width: 90%;
-    margin-bottom: 17px;
-  }
-
-/* Style the inputs */
-
-.input {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    border: 1px solid #DADCE0;
-    border-radius: 7px;
-    font-size: 16px;
-    padding: 0 20px;
-    outline: none;
-    background: none;
-    z-index: 1;
-  }
-  
-/* Hide the placeholder texts (a) */
-  
-  ::placeholder {
-    color: transparent;
-  }
-
-/* Styling text labels */
-
-.label {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    padding: 0 4px;
-    background-color: white;
-    color: #DADCE0;
-    font-size: 16px;
-    transition: 0.5s;
-    z-index: 0;
-  }
-
-  .submitBtn {
-    display: block;
-    margin-left: auto;
-    padding: 15px 30px;
-    border: none;
-    background-color: purple;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 30px;
-  }
-  
-  .submitBtn:hover {
-    background-color: #9867C5;
-    transform: translateY(-2px);
-  }
-
-  .input:focus + .label {
-    top: -7px;
-    left: 3px;
-    z-index: 10;
-    font-size: 14px;
-    font-weight: 600;
-    color: purple;
-  }
-
-  .input:focus {
-    border: 2px solid purple;
-  }
-
-  .input:not(:placeholder-shown)+ .label {
-    top: -7px;
-    left: 3px;
-    z-index: 10;
-    font-size: 14px;
-    font-weight: 600;
-  }
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
 
 
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
 
 
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1026px) and (max-width: 1280px) {
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
-    }
-
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
-
-
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-  
-}
-
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
+/* Media Quries */ 
 
 @media (min-width: 768px) and (max-width: 1023px) {
     #header {
@@ -585,667 +357,6 @@ footer {
     #hero-outer {
         max-height: 10%;
         align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
-    }
-
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
-
-
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-    
-}
-
-
-/* 
-  ##Device = galaxay fold landscape
-  ##Screen = B/w 653
-*/
-
-@media (min-width: 652px) and (max-width: 655px) {
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
-    }
-
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
-
-
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
-    }
-
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
-
-
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-  
-}
-
-  /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 360px to 479px
-*/
-
-@media (min-width: 411px) and (max-width: 480px) {
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
-    }
-
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
-
-
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-}
-  /* 
-  ##Device = iphone x
-  ##Screen = B/w 360px to 479px
-*/
-
-@media (min-width: 375px) and (max-width: 410px) {
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
-    }
-
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
-
-
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-  
-}
-
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 360px to 479px
-*/
-
-@media (min-width: 360px) and (max-width: 374px) {
-
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
-    }
-
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
-
-
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-  
-}
-
-  /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 360px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 359px) {  
-
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
-    }
-
-    .nav {
-        padding: 0%;
-        margin: 0%;
-    }
-
-
-    #menu {
-        text-align: center;
-        font-size: 100%;
-        line-height: 2;
-        font-size: 100%;
-        line-height: 2;
-        padding: 10px;
-        display: inline-block;
-        display: inline;
-    }
-
-    #club-ethos {
-        float: left;
-        max-width: 90vw;
-    }
-
-    #club-ethos h2 {
-        padding: 5vw;
-        text-align: center;
-    }
-    
-    #left-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-    }
-
-    #center-about {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        max-height: 25%;
-        float: left;
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #youtube {
-        height: 25%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    #times {
-        float: left;
-    }
-  
-}
-
-    /* 
-  ##Device = very small screens
-  ##Screen = B/w 240px to 319px
-*/
-
-@media (min-width: 240px) and (max-width: 319px) {
-    
-    #header {
-        max-height: 10%;
-        display: flex;
-    }
-
-    #logo {
-        float: left;
-        font-size: 150%;
-        margin-left: 25px;
-        padding: 10px;
-    }
-
-    #hero-outer {
-        max-height: 10%;
-        align-items: center;
-    }
-
-    #cover-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 100%;
     }
 
     .nav {
@@ -1307,5 +418,518 @@ footer {
     
     #times {
         float: left;
+    }
+
+    #imgtoobig {
+        height: 5%;
+    }
+}
+
+@media (min-width: 652px) and (max-width: 655px) {
+    #header {
+        max-height: 10%;
+        display: flex;
+    }
+
+    #logo {
+        float: left;
+        font-size: 150%;
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    #hero-outer {
+        max-height: 10%;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+    #menu {
+        text-align: center;
+        font-size: 100%;
+        line-height: 2;
+        font-size: 75%;
+        line-height: 2;
+        padding: 10px;
+        display: inline-block;
+        display: inline;
+    }
+
+    #club-ethos {
+        float: left;
+        max-width: 90vw;
+    }
+
+    #club-ethos h2 {
+        padding: 5vw;
+        text-align: center;
+    }
+    
+    #left-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+    }
+
+    #center-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #youtube {
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #times {
+        float: left;
+    }
+
+    #imgtoobig {
+        height: 5%;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 480px) {
+    #header {
+        max-height: 10%;
+        display: flex;
+    }
+
+    #logo {
+        float: left;
+        font-size: 150%;
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    #hero-outer {
+        max-height: 10%;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+    #menu {
+        text-align: center;
+        font-size: 100%;
+        line-height: 2;
+        font-size: 75%;
+        line-height: 2;
+        padding: 10px;
+        display: inline-block;
+        display: inline;
+    }
+
+    #club-ethos {
+        float: left;
+        max-width: 90vw;
+    }
+
+    #club-ethos h2 {
+        padding: 5vw;
+        text-align: center;
+    }
+    
+    #left-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+    }
+
+    #center-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #youtube {
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #times {
+        float: left;
+    }
+
+    #imgtoobig {
+        height: 5%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 410px) {
+    
+    
+    #header {
+        max-height: 10%;
+        display: flex;
+    }
+
+    #logo {
+        float: left;
+        font-size: 150%;
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    #hero-outer {
+        max-height: 10%;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+    #menu {
+        text-align: center;
+        font-size: 100%;
+        line-height: 2;
+        font-size: 80%;
+        line-height: 2;
+        padding: 15px;
+        display: inline-block;
+        display: inline;
+        float: left;
+        margin-left: 10px;
+    }
+
+    #club-ethos {
+        float: left;
+        max-width: 90vw;
+    }
+
+    #club-ethos h2 {
+        padding: 5vw;
+        text-align: center;
+    }
+    
+    #left-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+    }
+
+    #center-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #youtube {
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #times {
+        float: left;
+    }
+
+    #imgtoobig {
+        height: 5%;
+    }
+}
+@media (min-width: 360px) and (max-width: 375px) { 
+    #header {
+        max-height: 10%;
+        display: flex;
+    }
+
+    #logo {
+        float: left;
+        font-size: 150%;
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    #hero-outer {
+        max-height: 10%;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+    #menu {
+        text-align: center;
+        font-size: 100%;
+        line-height: 2;
+        font-size: 75%;
+        line-height: 2;
+        padding: 10px;
+        display: inline-block;
+        display: inline;
+    }
+
+    #club-ethos {
+        float: left;
+        max-width: 90vw;
+    }
+
+    #club-ethos h2 {
+        padding: 5vw;
+        text-align: center;
+    }
+    
+    #left-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+    }
+
+    #center-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #youtube {
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #times {
+        float: left;
+    }
+
+    #imgtoobig {
+        height: 5%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 359px) { 
+
+    #header {
+       max-height: 10%;
+       display: flex;
+   }
+
+   #logo {
+       float: left;
+       font-size: 150%;
+       margin-left: 25px;
+       padding: 10px;
+   }
+
+   #hero-outer {
+       max-height: 10%;
+       align-items: center;
+   }
+
+   .nav {
+       padding: 0%;
+       margin: 0%;
+   }
+
+
+   #menu {
+       text-align: center;
+       font-size: 100%;
+       line-height: 2;
+       font-size: 75%;
+       line-height: 2;
+       padding: 10px;
+       display: inline-block;
+       display: inline;
+   }
+
+   #club-ethos {
+       float: left;
+       max-width: 90vw;
+   }
+
+   #club-ethos h2 {
+       padding: 5vw;
+       text-align: center;
+   }
+   
+   #left-about {
+       display: flex;
+       flex-direction: column;
+       font-size: 1rem;
+       flex-wrap: wrap;
+       align-items: center;
+       max-height: 25%;
+       float: left;
+       width: 100%;
+   }
+
+   #center-about {
+       display: flex;
+       flex-direction: column;
+       font-size: 1rem;
+       flex-wrap: wrap;
+       align-items: center;
+       max-height: 25%;
+       float: left;
+       width: 100%;
+       margin-left: 30px;
+   }
+
+   #youtube {
+       height: 25%;
+       width: 100%;
+       text-align: center;
+       align-items: center;
+   }
+   
+   #times {
+       float: left;
+   }
+
+   #imgtoobig {
+    height: 5%;
+   }
+}
+
+@media (min-width: 240px) and (max-width: 319px) { 
+
+     #header {
+        max-height: 10%;
+        display: flex;
+    }
+
+    #logo {
+        float: left;
+        font-size: 150%;
+        margin-left: 25px;
+        padding: 10px;
+    }
+
+    #hero-outer {
+        max-height: 10%;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+    #menu {
+        text-align: center;
+        font-size: 100%;
+        line-height: 2;
+        font-size: 75%;
+        line-height: 2;
+        padding: 10px;
+        display: inline-block;
+        display: inline;
+    }
+
+    #club-ethos {
+        float: left;
+        max-width: 90vw;
+    }
+
+    #club-ethos h2 {
+        padding: 5vw;
+        text-align: center;
+    }
+    
+    #left-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+    }
+
+    #center-about {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: 25%;
+        float: left;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #youtube {
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #times {
+        float: left;
+    }
+
+    #imgtoobig {
+        height: 5%;
     }
 }
