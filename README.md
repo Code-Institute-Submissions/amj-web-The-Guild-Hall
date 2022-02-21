@@ -83,6 +83,8 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing 
 
+Testing come back with no errors but there is a warming in the gallery html: Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. After so research I have decided it is safe to ignore the warning. 
+
 To run tests, run the following command
 
 ```bash
@@ -99,7 +101,7 @@ W3C CSS Validator results
 
 - __W3C HTML Validator results__
 
-https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-moccasin-gayal-a7ncl3cq.ws-eu25.gitpod.io%2Findex.html
+https://validator.w3.org/nu/?doc=https%3A%2F%2Famj-web.github.io%2FThe-Guild-Hall%2Fgallery.html
 
 - __Responsive Design__
 
